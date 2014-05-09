@@ -6,7 +6,7 @@ A bpipe script to run the [Trinotate](http://trinotate.sourceforge.net) transcri
 - A prepared pfam database
 
 	```bash
-	wget https://dl.dropboxusercontent.com/u/226794/Pfam-A.hmm.gz
+	wget http://sourceforge.net/projects/trinotate/files/TRINOTATE_RESOURCES/Pfam-A.hmm.gz/download -O Pfam-A.hmm.gz
 	gunzip Pfam-A.hmm.gz
 	hmmpress Pfam-A.hmm
 	```
